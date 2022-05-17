@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculadora</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="js/jquery-3.6.0.js"></script>
+<script src="script.js"></script>
+<body>
+  <div id="calculadora">
+
+    <div class="display"> </div>
+
+    <div id="botones">
+      
+      <button class="limpiar" onclick="calculadora('C')">C</button>
+      <div class="fila1">
+        <button onclick="calculadora(7)">7</button>
+        <button onclick="calculadora(8)">8</button>
+        <button onclick="calculadora(9)">9</button>
+        <button onclick="calculadora('/')">÷</button>
+      </div>
+      <div class="fila2">
+        <button onclick="calculadora(4)">4</button>
+        <button onclick="calculadora(5)">5</button>
+        <button onclick="calculadora(6)">6</button>
+        <button onclick="calculadora('*')">x</button>
+      </div>
+      <div class="fila3">
+        <button onclick="calculadora(1)">1</button>
+        <button onclick="calculadora(2)">2</button>
+        <button onclick="calculadora(3)">3</button>
+        <button onclick="calculadora('-')">-</button>
+      </div>
+      <div class="fila4">
+        <button onclick="calculadora('.')">.</button>
+        <button onclick="calculadora(0)">0</button>
+        <button onclick="calculadora('=')">=</button>
+        <button onclick="calculadora('+')">+</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
